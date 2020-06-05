@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/aula02.css">
+</head>
+<body>
+
+    <!-- action: chama o script -->
+    <!-- method: post ou get -->
+    <!-- post: envia dados -->
+    <!-- get: recebe dados -->
+    <form action="script.js" method="post">
+
+        <!-- type: Tipo do input -->
+        <!-- name: Identificador do input -->
+        <input type="text" name="username" placeholder="username" required>
+        <label for="username">Nome do Usuário</label>
+
+        <select name="país">
+            <!-- Optgroup: categoria -->
+            <optgroup label="South America">
+                <!-- Item da categoria -->
+                <option value="BR">Brasil</option>
+                <option value="AR">Argentina</option>
+                <option value="CH">China</option>
+            </optgroup>
+
+            <optgroup label="EU">
+                <option value="IT">Italia</option>
+                <option value="FR">França</option>
+                <option value="PT">Portugal</option>
+            </optgroup>
+            
+        <textarea name="mensagem"></textarea><br>
+        
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

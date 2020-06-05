@@ -1,0 +1,21 @@
+/*
+seletor:pseudo {
+    propriedade: valor;
+}
+*/
+
+strong {
+    color: brown;
+}
+
+strong:hover {
+    color: aqua;
+}
+
+input:active {
+    background-color:blueviolet
+}
+
+textarea:focus {
+    background-color: blueviolet;
+}
